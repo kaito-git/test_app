@@ -59,17 +59,16 @@ header {
   line-height: 64px;
 }
 
-.header-logo li{
-
-}
-
 .header-logo a{
   color: white;
   font-size: 22px;
-  padding-left: 15px;
 }
 
 .main-nav {
   display: flex;
 
+}
+
+.main-nav li{
+  padding-left: 15px;
 }
