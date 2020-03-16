@@ -62,3 +62,33 @@ img {
   padding: 0 4%;
 }
 /* ヘッダー ================================ */
+.page-header {
+  display: flex;
+  justify-content: space-between;
+  height: 64px;
+}
+
+.header-logo {
+  color: white;
+  line-height: 64px;
+  font-size: 28px;
+}
+
+.main-nav {
+  display: flex;
+  font-size: 20px;
+  line-height: 64px;
+  text-transform: uppercase;
+}
+
+.main-nav li {
+  margin-left: 15px;
+}
+
+.main-nav a {
+  color: #432;
+}
+
+.main-nav a:hover {
+  color: #0bd;
+}
