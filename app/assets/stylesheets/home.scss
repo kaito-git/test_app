@@ -45,7 +45,7 @@ body {
 
 /* ヘッダー ================================ */
 .page-header {
-  height: 64px;
+  height: 80px;
   position: absolute;
   z-index: 1;
   width: 100%;
@@ -57,7 +57,7 @@ body {
   padding-left: 20px;
   color: white;
   font-size: 22px;
-  line-height: 64px;
+  line-height: 80px;
 }
 
 .header-logo a{
@@ -67,12 +67,11 @@ body {
 
 .main-nav{
   display: flex;
-  line-height: 64px;
+  line-height: 80px;
   font-size: 18px;
   padding-right: 20px;
 }
 
 .main-nav li{
   padding-left: 15px;
-  color: white;
 }
