@@ -43,6 +43,11 @@ body {
   min-height: 1vh;
 }
 
+.wrapper{
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
 /* ヘッダー ================================ */
 .page-header {
   height: 80px;
@@ -77,7 +82,11 @@ body {
 }
 
 /* top ================================ */
-.wrapper{
-  max-width: 1100px;
-  margin: 0 auto;
+.home-content{
+  text-align: center;
+  margin-top: 10px;
+}
+
+.home-content p{
+  font-size: 1.125rem;
 }
