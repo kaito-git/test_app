@@ -1,25 +1,29 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>TestApp</title>
+    <title>TweetApp</title>
     <%= csrf_meta_tags %>
-    <%= csp_meta_tag %>
 
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
 
   <body>
-    <header class="page-header wrapper">
+    <header>
       <div class="header-logo">
-        <%= link_to("TweetApp","/") %>
+          <%= link_to("TweetApp", "/") %>
       </div>
-      <nav>
-        <ul class="main-nav">
-          <li><%= link_to("Signup","/signup") %></li>
-          <li><%= link_to("Login","/login") %></li>
-        </ul>
-      </nav>
+      <ul class="header-menus">
+          <li>
+            <%= link_to("TweetAppとは", "/about") %>
+          </li>
+          <li>
+            <%= link_to("新規登録", "/signup") %>
+          </li>
+          <li>
+            <%= link_to("ログイン", "/login") %>
+          </li>
+      </ul>
     </header>
     <%= yield %>
   </body>
