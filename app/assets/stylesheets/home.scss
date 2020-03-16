@@ -25,7 +25,7 @@ ul, li {
 }
 /* ヘッダー ================================ */
 .page-header {
-  height: 80px;
+  height: 64px;
   position: absolute;
   z-index: 1;
   width: 100%;
@@ -35,18 +35,18 @@ ul, li {
 
 .header-logo {
   padding-left: 20px;
-  font-size: 32px;
-  line-height: 80px;
+  font-size: 28px;
+  line-height: 64px;
 }
 
 .header-logo a{
-  font-size: 38px;
+
 }
 
 .main-nav{
   display: flex;
-  line-height: 80px;
-  font-size: 28px;
+  line-height: 64px;
+  font-size: 20px;
   padding-right: 20px;
 }
 
