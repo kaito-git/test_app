@@ -1,52 +1,22 @@
-/* reset ================================ */
-* {
-  box-sizing: border-box;
+@charset "UTF-8";
+/* 共通部分 ================================ */
+html{
+  font-size: 100%;
 }
 
-html {
-  font: 100%/1.5 'Avenir Next', 'Hiragino Sans', sans-serif;
+body{
+      font-family: "Yu Gothic Medium", "游ゴシック Medium", YuGothic, "游ゴシック体", "ヒラギノ角ゴ Pro W3", sans-serif;
   line-height: 1.7;
-  letter-spacing: 1px;
+  color: #432;
 }
 
-ul, li {
-  list-style-type: none;
-  padding: 0;
-  margin: 0;
-}
-
-a {
+a{
   text-decoration: none;
-  color: #2d3133;
-  font-size: 14px;
 }
 
-h1, h2, h3, h4, h5, h6, p {
-  margin: 0;
+img{
+  max-width: 100%;
 }
-
-input {
-  background-color: transparent;
-  outline-width: 0;
-}
-
-form input[type="submit"] {
-  border: none;
-  cursor: pointer;
-}
-
-/* 共通レイアウト ================================ */
-body {
-  background-color: #3ecdc6;
-  margin: 0;
-  min-height: 1vh;
-}
-
-.wrapper{
-  max-width: 1100px;
-  margin: 0 auto;
-}
-
 /* ヘッダー ================================ */
 .page-header {
   height: 80px;
