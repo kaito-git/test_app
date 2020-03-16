@@ -49,6 +49,7 @@ body {
   position: absolute;
   z-index: 1;
   width: 100%;
+  display: flex;
   justify-content: space-between;
 }
 
@@ -62,10 +63,6 @@ body {
 .header-logo a{
   color: white;
   font-size: 22px;
-}
-
-.main-nav {
-  display: flex;
 }
 
 .main-nav li{
