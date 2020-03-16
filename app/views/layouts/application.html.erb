@@ -9,18 +9,20 @@
   </head>
 
   <body>
-    <header>
+    <header class="page-header">
       <div class="header-logo">
           <%= link_to("TweetApp", "/") %>
       </div>
-      <ul class="main-nav">
-          <li>
-            <%= link_to("Signup", "/signup") %>
-          </li>
-          <li>
-            <%= link_to("Login", "/login") %>
-          </li>
-      </ul>
+      <nav>
+        <ul class="main-nav">
+            <li>
+              <%= link_to("Signup", "/signup") %>
+            </li>
+            <li>
+              <%= link_to("Login", "/login") %>
+            </li>
+        </ul>
+      </nav>
     </header>
     <%= yield %>
   </body>
