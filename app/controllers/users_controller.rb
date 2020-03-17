@@ -25,4 +25,17 @@ class UsersController < ApplicationController
 
   def login_form
   end
+
+  def login
+    @user = User.find_by(email: params[:email], password: params[:password])
+    if @user
+      session[:user_id] = @user.id
+      flash[:notice] = "Success!"
+      redirect_to("/users/:id")
+    else
+      @error_message = "UnSuccessful"
+      @email = params[:email]
+      @password = params[:password]
+      render("users/login_form")
+  end
 end
