@@ -37,5 +37,6 @@ class UsersController < ApplicationController
       @email = params[:email]
       @password = params[:password]
       render("users/login_form")
+    end
   end
 end
