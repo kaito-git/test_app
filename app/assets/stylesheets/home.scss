@@ -57,6 +57,17 @@ img {
   margin: 0 auto;
   padding: 0 4%;
 }
+
+.big-bg {
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+}
+
+#home {
+  background-image: url(\2020-03-02_16-00-48_396.jpeg);
+  min-height: 100vh;
+}
 /* ヘッダー ================================ */
 .page-header {
   display: flex;
