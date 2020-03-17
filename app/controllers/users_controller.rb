@@ -17,7 +17,7 @@ class UsersController < ApplicationController
     if @user.save
       session[:user_id] = @user.id
       flash[:notice] = "Complete!"
-      redirect_to("/users/#{@user_id}")
+      redirect_to("/users/#{@user.id}")
     else
       render("users/new")
     end
