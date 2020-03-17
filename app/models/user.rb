@@ -1,2 +1,2 @@
-class User < ApplicationRecord::Base
+class User < ApplicationRecord
 end
