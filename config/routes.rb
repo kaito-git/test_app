@@ -8,6 +8,8 @@ Rails.application.routes.draw do
   get "users/:id" => "users#show"
 
   get "posts/index" => "posts#index"
+  get "posts/new" => "posts#new"
+  post "posts/create" => "posts#create"
 
   get "/" => "home#top"
 end
