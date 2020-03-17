@@ -6,5 +6,7 @@ Rails.application.routes.draw do
   get "signup" => "users#new"
   get "users/:id" => "users#show"
 
+  get "posts/index" => "posts#index"
+
   get "/" => "home#top"
 end

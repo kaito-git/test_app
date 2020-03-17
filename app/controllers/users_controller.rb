@@ -31,7 +31,7 @@ class UsersController < ApplicationController
     if @user
       session[:user_id] = @user.id
       flash[:notice] = "Success!"
-      redirect_to("/users/:id")
+      redirect_to("/posts/index")
     else
       @error_message = "UnSuccessful"
       @email = params[:email]
